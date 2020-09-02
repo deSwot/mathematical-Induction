@@ -1,0 +1,33 @@
+h1 {
+    background: -webkit-linear-gradient(red, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  hr.style-three {
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+    }
+    hr.style-three:before {
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+    }
+body {
+  position: absolute;
+  right: 28%;  
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 67%, rgba(0,212,255,1) 100%);
+  width: 500px;
+  border: 15px solid black;
+  padding: 50px;
+  margin: 20px;
+}
